@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- PancakeSwap-style Rabbit Favicon -->
+  <defs>
+    <linearGradient id="rabbitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6D2E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8A5B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle - light blue -->
+  <circle cx="50" cy="50" r="48" fill="#53DEE9" />
+  
+  <!-- Rabbit ears -->
+  <!-- Left ear -->
+  <ellipse cx="40" cy="35" rx="8" ry="18" fill="url(#rabbitGrad)" />
+  <ellipse cx="40" cy="39" rx="6" ry="14" fill="#FFA07A" />
+  
+  <!-- Right ear -->
+  <ellipse cx="60" cy="35" rx="8" ry="18" fill="url(#rabbitGrad)" />
+  <ellipse cx="60" cy="39" rx="6" ry="14" fill="#FFA07A" />
+  
+  <!-- Rabbit head -->
+  <ellipse cx="50" cy="52" rx="24" ry="22" fill="url(#rabbitGrad)" />
+  
+  <!-- Inner head detail -->
+  <ellipse cx="50" cy="52" rx="22" ry="20" fill="#FF8A5B" />
+  
+  <!-- Eyes -->
+  <circle cx="44" cy="48" r="4" fill="#2C3E50" />
+  <circle cx="56" cy="48" r="4" fill="#2C3E50" />
+  
+  <!-- Eye shine -->
+  <circle cx="45" cy="47" r="1.5" fill="#FFFFFF" />
+  <circle cx="57" cy="47" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <circle cx="50" cy="56" r="2.5" fill="#FFB699" />
+</svg>
